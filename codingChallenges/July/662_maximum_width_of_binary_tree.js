@@ -20,7 +20,7 @@ var widthOfBinaryTree = function(root) {
   let globalMax = -Infinity;
   let queue = [];
   let newQueue;
-  queue.push({ node: root, idx: 0, depth: 0});
+  queue.push({ node: root, idx: 0});
   
   while (queue.length) {
     globalMax = Math.max(globalMax, queue[queue.length - 1].idx - queue[0].idx + 1);
@@ -28,10 +28,10 @@ var widthOfBinaryTree = function(root) {
     let offset = queue[0].idx;
     for (let i = 0; i < queue.length; i++ ) {
       if (queue[i].node.left) {
-        newQueue.push({node: queue[i].node.left, idx: 2 * queue[i].idx - offset, depth: queue[i].depth + 1});
+        newQueue.push({node: queue[i].node.left, idx: 2 * queue[i].idx - offset});
       }
       if (queue[i].node.right) {
-        newQueue.push({node: queue[i].node.right, idx: (2 * queue[i].idx) + 1 - offset, depth: queue[i].depth + 1});
+        newQueue.push({node: queue[i].node.right, idx: (2 * queue[i].idx) + 1 - offset});
       }
     }
     queue = newQueue;
