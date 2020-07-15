@@ -1,5 +1,6 @@
 //  Time: O(n)
-// Space: O(n)
+// Space: O(n), could be O(1) if I mutated original 
+//        string instead of a copy.
 
 /**
  * @param {string} s
