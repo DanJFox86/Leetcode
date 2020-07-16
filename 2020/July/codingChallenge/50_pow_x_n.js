@@ -1,3 +1,6 @@
+//  Time: O(logn)
+// Space: O(1)
+
 /**
  * @param {number} x
  * @param {number} n
@@ -23,19 +26,23 @@ var myPow = function(x, n) {
       currPow -= 1;
     }
     return result;
-//     let result = 1;
-//     let lastResult;
-//     while(pow > 0) {
-//       lastResult = result;
-//       result *= val;
-//       if (result === lastResult) {
-//         return result;
-//       } else if (result === 1) {
-//         return result;
-//       }
-//       pow -= 1;
-//     }
-//     return result;
+
+/*
+
+    let result = 1;
+    let lastResult;
+    while(pow > 0) {
+      lastResult = result;
+      result *= val;
+      if (result === lastResult) {
+        return result;
+      } else if (result === 1) {
+        return result;
+      }
+      pow -= 1;
+    }
+    return result;
+*/
   }
   let numSign = 1;
   // If x is negative
