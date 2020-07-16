@@ -44,7 +44,6 @@ var myPow = function(x, n) {
     return result;
 */
   }
-  let numSign = 1;
   // If x is negative
   if (x < 0) {
     // n is also negative
