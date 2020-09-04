@@ -52,4 +52,5 @@ Currently, this is just a repo to track problems I have completed in Leetcode. I
         * ##### [220 - Contains Duplicates III](./2020/September/220_contains_duplicates_3.js)  <a href="https://leetcode.com/problems/contains-duplicate-iii/"><img src="./leetcode-logo.png" height=20px /></a>
         * ##### [949 - Largest Time For Given Digits](./2020/September/949_largest_time_given_digits.js)  <a href="https://leetcode.com/problems/largest-time-for-given-digits/"><img src="./leetcode-logo.png" height=20px /></a>
         * ##### [459 - Repeated Substring Pattern](./2020/September/459_repeated_substring_pattern.js)  <a href="https://leetcode.com/problems/repeated-substring-pattern/"><img src="./leetcode-logo.png" height=20px /></a>
+        * ##### [763 - Partition Labels](./2020/September/763_partition_labels.js)  <a href="https://leetcode.com/problems/partition-labels/"><img src="./leetcode-logo.png" height=20px /></a>
       * ##### [301 - Remove Invalid Parentheses](./2020/September/301_remove_invalid_paren.js)  <a href="https://leetcode.com/problems/remove-invalid-parentheses/"><img src="./leetcode-logo.png" height=20px /></a>
